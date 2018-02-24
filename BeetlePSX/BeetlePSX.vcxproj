@@ -327,6 +327,7 @@
     <ClInclude Include="src\mednafen\psx\FastFIFO.h" />
     <ClInclude Include="src\mednafen\psx\frontio.h" />
     <ClInclude Include="src\mednafen\psx\gpu.h" />
+    <ClInclude Include="src\mednafen\psx\gpu_common.h" />
     <ClInclude Include="src\mednafen\psx\gte.h" />
     <ClInclude Include="src\mednafen\psx\input\dualanalog.h" />
     <ClInclude Include="src\mednafen\psx\input\dualshock.h" />
@@ -347,6 +348,7 @@
     <ClInclude Include="src\mednafen\settings-driver.h" />
     <ClInclude Include="src\mednafen\settings.h" />
     <ClInclude Include="src\mednafen\state.h" />
+    <ClInclude Include="src\mednafen\state_helpers.h" />
     <ClInclude Include="src\mednafen\Stream.h" />
     <ClInclude Include="src\mednafen\tremor\block.h" />
     <ClInclude Include="src\mednafen\tremor\codebook.h" />
@@ -466,7 +468,7 @@
     <ClCompile Include="src\mednafen\FileStream.cpp" />
     <ClCompile Include="src\mednafen\general.cpp" />
     <ClCompile Include="src\mednafen\md5.c" />
-    <ClCompile Include="src\mednafen\mednafen-endian.c" />
+    <ClCompile Include="src\mednafen\mednafen-endian.cpp" />
     <ClCompile Include="src\mednafen\MemoryStream.cpp" />
     <ClCompile Include="src\mednafen\mempatcher.cpp" />
     <ClCompile Include="src\mednafen\psx\cdc.cpp" />

@@ -163,6 +163,8 @@
     <ClInclude Include="src\deps\lzma-16.04\C\7z.h" />
     <ClInclude Include="src\deps\lzma-16.04\C\Alloc.h" />
     <ClInclude Include="src\mednafen\cdrom\CDAccess_CHD.h" />
+    <ClInclude Include="src\mednafen\state_helpers.h" />
+    <ClInclude Include="src\mednafen\psx\gpu_common.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\libretro.cpp" />
@@ -172,7 +174,6 @@
     <ClCompile Include="src\mednafen\FileStream.cpp" />
     <ClCompile Include="src\mednafen\general.cpp" />
     <ClCompile Include="src\mednafen\md5.c" />
-    <ClCompile Include="src\mednafen\mednafen-endian.c" />
     <ClCompile Include="src\mednafen\MemoryStream.cpp" />
     <ClCompile Include="src\mednafen\mempatcher.cpp" />
     <ClCompile Include="src\mednafen\settings.cpp" />
@@ -314,5 +315,6 @@
     <ClCompile Include="src\deps\lzma-16.04\C\Alloc.c" />
     <ClCompile Include="src\mednafen\cdrom\CDAccess_CHD.cpp" />
     <ClCompile Include="src\deps\flac-1.3.2\src\libFLAC\cpu.c" />
+    <ClCompile Include="src\mednafen\mednafen-endian.cpp" />
   </ItemGroup>
 </Project>
