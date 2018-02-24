@@ -310,6 +310,8 @@
     <ClInclude Include="src\src\burner\libretro\libretro-common\include\libretro.h" />
     <ClInclude Include="src\src\burner\libretro\libretro-common\include\compat\fopen_utf8.h" />
     <ClInclude Include="src\src\burner\libretro\libretro-common\include\vfs\vfs_implementation.h" />
+    <ClInclude Include="src\src\burn\snd\burn_md2612.h" />
+    <ClInclude Include="src\src\burn\snd\ym2612.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\src\dep\libs\zlib\adler32.c" />
@@ -1063,6 +1065,9 @@
     <ClCompile Include="src\src\burner\libretro\libretro-common\compat\compat_posix_string.c" />
     <ClCompile Include="src\src\burner\libretro\libretro-common\compat\fopen_utf8.c" />
     <ClCompile Include="src\src\burner\libretro\libretro-common\vfs\vfs_implementation.c" />
+    <ClCompile Include="src\src\burn\drv\megadrive\stm95.cpp" />
+    <ClCompile Include="src\src\burn\snd\burn_md2612.cpp" />
+    <ClCompile Include="src\src\burn\snd\ym2612.c" />
   </ItemGroup>
   <ItemGroup>
     <None Include="src\src\cpu\a68k\mips\a68ktbl.inc" />
